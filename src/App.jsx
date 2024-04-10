@@ -12,6 +12,16 @@ function App() {
         </header>
 
         <main>
+          <section className="hero min-h-screen bg-base-200 mb-20" style={{ backgroundImage: "url('https://example.com/elon-musk-hero.jpg')" }}>
+            <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero-content text-center text-neutral-content">
+              <div className="max-w-md">
+                <h1 className="mb-5 text-6xl font-bold">Elon Musk</h1>
+                <p className="mb-5 text-2xl">Visionary Entrepreneur, Innovator, and Engineer</p>
+              </div>
+            </div>
+          </section>
+
           <section className="mb-20">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-xl mb-4">I'm just a guy who likes to dream big and make things happen. From electric cars and solar energy to reusable rockets and brain-computer interfaces, I'm always pushing the boundaries of what's possible.</p>
